@@ -35,7 +35,7 @@ All plots are saved in the `/outputs/` folder.
 
 ### On Colab (Recommended)
 1. Upload the `csv_files/` folder to your session.  
-2. Open `notebook_1.ipynb`.  
+2. Open `Primetrade_ai_assignment.ipynb`.  
 3. Run all cells.  
 4. Outputs will be auto-saved in `/outputs/`.
 
@@ -49,7 +49,7 @@ jupyter notebook
 
 | File             | Description                           |
 | ---------------- | ------------------------------------- |
-| notebook_1.ipynb | Full analysis code and visualizations |
+| Primetrade_ai_assignment.ipynb | Full analysis code and visualizations |
 | ds_report.pdf    | Final summary with insights           |
 | csv_files/       | All raw and processed datasets        |
 | outputs/         | All generated graphs                  |
