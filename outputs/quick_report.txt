@@ -1,0 +1,11 @@
+=== Quick Summary ===
+Total trades: 211224
+Trades with closed_pnl: 211224
+Sentiment counts:
+classification
+Fear             133871
+Greed             36289
+Neutral            7141
+Extreme Greed      6962
+FG index range: 44.0 to 84.0
+Saved outputs to folder: outputs

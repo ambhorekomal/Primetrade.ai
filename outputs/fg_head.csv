@@ -1,0 +1,6 @@
+timestamp,value,classification,date
+1517463000,30,Fear,2018-02-01
+1517549400,15,Extreme Fear,2018-02-02
+1517635800,40,Fear,2018-02-03
+1517722200,24,Extreme Fear,2018-02-04
+1517808600,11,Extreme Fear,2018-02-05
