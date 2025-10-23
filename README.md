@@ -9,15 +9,17 @@ The goal is to identify hidden behavioral patterns among traders under different
 ## 📂 Repository Structure
 
 ds_komal_ambhore/
-├── notebook_1.ipynb # Main Google Colab work (EDA + Analysis + Visualizations)
-├── csv_files/ # Raw + cleaned + intermediate data files
-│ ├── historical_data.csv
-│ ├── fear_greed_index.csv
-│ └── merged_cleaned.csv
-├── outputs/ # All generated charts and visuals (png/jpg)
-│ └── *.png
-├── ds_report.pdf # Final insights summary report
+├── notebook_1.ipynb          # Main Google Colab work (EDA + Analysis + Visualizations)
+├── csv_files/                # Raw + cleaned + intermediate data files
+│   ├── historical_data.csv
+│   ├── fear_greed_index.csv
+│   └── merged_cleaned.csv
+├── outputs/                  # All generated charts and visuals (png/jpg)
+│   └── *.png
+├── ds_report.pdf             # Final insights summary report
 └── README.md
+
+
 
 ---
 
