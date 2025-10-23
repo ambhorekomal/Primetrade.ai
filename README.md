@@ -1,3 +1,6 @@
+Sure! I cleaned up your README, fixed formatting issues, aligned tables/code blocks, and made it fully copy-paste ready for GitHub. Here’s the polished version:
+
+```markdown
 # Bitcoin Market Sentiment vs Trader Performance
 
 ## 📌 Objective
@@ -8,28 +11,30 @@ The goal is to identify hidden behavioral patterns among traders under different
 
 ## 📂 Repository Structure
 
+```
+
 ds_komal_ambhore/
-├── notebook_1.ipynb # Main Google Colab work (EDA + Analysis + Visualizations)
-├── csv_files/ # Raw, cleaned, and intermediate data files
-│ ├── historical_data.csv
-│ ├── fear_greed_index.csv
-│ └── merged_cleaned.csv
-├── outputs/ # All generated charts and visuals (png/jpg)
-│ └── *.png
-├── ds_report.pdf # Final insights summary report
-└── README.md # Project documentation
+├── notebook_1.ipynb            # Main Google Colab work (EDA + Analysis + Visualizations)
+├── csv_files/                  # Raw, cleaned, and intermediate data files
+│   ├── historical_data.csv
+│   ├── fear_greed_index.csv
+│   └── merged_cleaned.csv
+├── outputs/                    # All generated charts and visuals (png/jpg)
+│   └── *.png
+├── ds_report.pdf               # Final insights summary report
+└── README.md                   # Project documentation
 
-
+````
 
 ---
 
 ## 🧠 Key Insights
 
 | Aspect           | Fear Market                                    | Greed Market                                 |
-|----------------|-----------------------------------------------|---------------------------------------------|
-| Profitability   | Lower variance but lower average returns       | Higher profits but higher volatility         |
+|-----------------|-----------------------------------------------|---------------------------------------------|
+| Profitability   | Lower variance but lower average returns       | Higher profits but higher volatility        |
 | Leverage        | Conservative / stable                          | Higher, often aggressive                     |
-| Trader Behavior | Risk-off, small positions                     | Risk-on, large exposure                      |
+| Trader Behavior | Risk-off, small positions                      | Risk-on, large exposure                      |
 | Hidden Trend    | Contrarians outperform during fear             | Herding dominates outcomes                   |
 
 ✅ Sentiment often **leads** trading behavior by ~1 day  
@@ -38,30 +43,35 @@ ds_komal_ambhore/
 ---
 
 ## 📊 Visuals Included
-- Line charts of sentiment vs PnL
-- Boxplots comparing PnL during fear/greed
-- Leverage distribution by sentiment
-- Rolling averages for lag analysis
+- Line charts of sentiment vs PnL  
+- Boxplots comparing PnL during fear/greed  
+- Leverage distribution by sentiment  
+- Rolling averages for lag analysis  
 
-All plots are in `/outputs/`.
+All plots are saved in the `/outputs/` folder.
 
 ---
 
 ## 🛠 How to Run Locally / On Colab
 
 ### On Colab (Recommended)
-1. Upload `csv_files/` to your session
-2. Open `notebook_1.ipynb`
-3. Run all cells
-4. Outputs will be auto-saved in `/outputs/`
+1. Upload the `csv_files/` folder to your session.  
+2. Open `notebook_1.ipynb`.  
+3. Run all cells.  
+4. Outputs will be auto-saved in `/outputs/`.
 
 ### Local Setup
 ```bash
-pip install pandas numpy matplotlib seaborn reportlab
+pip install pandas numpy matplotlib seaborn reportlab jupyter
 jupyter notebook
+````
+
+### File Descriptions
+
 | File             | Description                           |
 | ---------------- | ------------------------------------- |
 | notebook_1.ipynb | Full analysis code and visualizations |
 | ds_report.pdf    | Final summary with insights           |
 | csv_files/       | All raw and processed datasets        |
 | outputs/         | All generated graphs                  |
+
