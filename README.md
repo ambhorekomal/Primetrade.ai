@@ -1,30 +1,9 @@
-Sure! I cleaned up your README, fixed formatting issues, aligned tables/code blocks, and made it fully copy-paste ready for GitHub. Here’s the polished version:
 
-```markdown
 # Bitcoin Market Sentiment vs Trader Performance
 
 ## 📌 Objective
 This project explores the relationship between **market sentiment (Fear vs Greed)** and **trader performance** (profitability, leverage usage, volume, and position sizing).  
 The goal is to identify hidden behavioral patterns among traders under different sentiment regimes and extract insights to build smarter trading strategies.
-
----
-
-## 📂 Repository Structure
-
-```
-
-ds_komal_ambhore/
-├── notebook_1.ipynb            # Main Google Colab work (EDA + Analysis + Visualizations)
-├── csv_files/                  # Raw, cleaned, and intermediate data files
-│   ├── historical_data.csv
-│   ├── fear_greed_index.csv
-│   └── merged_cleaned.csv
-├── outputs/                    # All generated charts and visuals (png/jpg)
-│   └── *.png
-├── ds_report.pdf               # Final insights summary report
-└── README.md                   # Project documentation
-
-````
 
 ---
 
